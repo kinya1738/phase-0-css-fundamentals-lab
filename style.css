@@ -4,13 +4,50 @@ body {
   margin: 0;
 }
 
-header{
+header >h1{
   align-items: center;
   justify-content: center;
   display: flex;
 }
 
-img{
+figure >img{
   align-items: center;
   justify-content: center;
+  display: block;
+  margin: 0 auto;
+}
+nav >a{
+  padding: 10px;
+  background-color: gray;
+}
+figcaption{
+  text-align: center;
+  font-size: 14px;
+
+}
+#featured-property >p{
+  width: 800px;
+  text-align: center;
+  margin: 20px auto;
+}
+#details >div{
+  float: left;
+  width: 25%;
+  background-color: red;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+figcaption {
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  color: #555; 
+  margin-top: 8px;
 }
