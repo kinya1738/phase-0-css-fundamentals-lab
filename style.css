@@ -3,3 +3,14 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+img{
+  align-items: center;
+  justify-content: center;
+}
